@@ -32,25 +32,25 @@ Ensure /etc/proxychains4.conf is set to route traffic through Tor:
 sudo nano /etc/proxychains4.conf
 # Ensure 'dynamic_chain' is enabled
 # Ensure 'socks5 127.0.0.1 9050' is at the bottom
-
+```
 2. Execution Steps
+```bash
+Verify Current Identity: ./sorgula.sh
 
-    Verify Current Identity: ./sorgula.sh
+Shift MAC Address: sudo ./mac_degistir.sh
 
-    Shift MAC Address: sudo ./mac_degistir.sh
+rotate Tor IP: sudo ./yeni_ip.sh
 
-    Rotate Tor IP: sudo ./yeni_ip.sh
-
-    Confirm Anonymity: ./sorgula.sh
-
+Confirm Anonymity: ./sorgula.sh
+```
 Technical Specifications
+```bash
+Language: Bash Scripting
 
-    Language: Bash Scripting
+Core Tools: Tor, Macchanger, ProxyChains4
 
-    Core Tools: Tor, Macchanger, ProxyChains4
-
-    Environment: Kali Linux
-
+Environment: Kali Linux
+```
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
