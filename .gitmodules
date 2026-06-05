@@ -13,3 +13,6 @@
 [submodule "packet-injector"]
 	path = packet-injector
 	url = https://github.com/mecik-arda/packet-injector.git
+[submodule "mimir-scanner"]
+	path = mimir-scanner
+	url = https://github.com/mecik-arda/mimir-scanner.git
