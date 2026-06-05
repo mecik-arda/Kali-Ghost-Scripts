@@ -7,3 +7,6 @@
 [submodule "erebus-scanner"]
 	path = erebus-scanner
 	url = https://github.com/mecik-arda/erebus-scanner.git
+[submodule "SnoopDork_V3"]
+	path = SnoopDork_V3
+	url = https://github.com/mecik-arda/SnoopDork_V3.git
