@@ -8,7 +8,7 @@ echo "TIMESTAMP: $(date)"
 echo "-----------------------------"
 # Local MAC Address Audit
 echo "CURRENT MAC ADDRESS ($INTERFACE):"
-ip link show $INTERFACE | grep link/ether | awk '{print $2}'
+ip link show "$INTERFACE" | grep link/ether | awk '{print $2}'
 echo "-----------------------------"
 # External IP Address Audit (via Tor)
 echo "PUBLIC IP ADDRESS (TOR):"
