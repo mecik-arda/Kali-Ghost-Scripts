@@ -1,0 +1,9 @@
+[submodule "Advanced-SYN-Scanner"]
+	path = Advanced-SYN-Scanner
+	url = https://github.com/mecik-arda/Advanced-SYN-Scanner.git
+[submodule "Network-Sniffer-Scanner-Java"]
+	path = Network-Sniffer-Scanner-Java
+	url = https://github.com/mecik-arda/Network-Sniffer-Scanner-Java.git
+[submodule "erebus-scanner"]
+	path = erebus-scanner
+	url = https://github.com/mecik-arda/erebus-scanner.git
