@@ -10,3 +10,6 @@
 [submodule "SnoopDork_V3"]
 	path = SnoopDork_V3
 	url = https://github.com/mecik-arda/SnoopDork_V3.git
+[submodule "packet-injector"]
+	path = packet-injector
+	url = https://github.com/mecik-arda/packet-injector.git
